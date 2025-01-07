@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 """ 
 
-Created on: 2021-07-27 17:30
+Created on: 2025-01-07 17:40
 @author: Traceve
 """
-
-
 from elasticsearch import Elasticsearch
 
 es = Elasticsearch("ip", http_auth=("username", 'password'))
